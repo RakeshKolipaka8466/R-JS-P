@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+.box-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border: 2px solid red;
+  height: 350px;
+  width: 500px;
+}
+.bg-light{
+  background-color: blue;
+  color: red;
+}
+.bg-dark{
+  background-color: brown;
+  color: light;
+}
+.card{
+  display: flex;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+  color:red;
+  background-color: yellow;
+}
+.disablecard{
+  display: flex;
+  width: 250px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  color:red;
+  background-color: wheat;
+}
+
+.counter{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid gold;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
